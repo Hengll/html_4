@@ -37,7 +37,7 @@ a:visited {
     z-index: 50;
 }
 
-#header .left {
+#left {
     width: 180px;
     height: 40px;
     margin-top: 8px;
@@ -45,7 +45,7 @@ a:visited {
     font-size: 0;
 }
 
-#header .left div:nth-child(1) {
+#left div:nth-child(1) {
     width: 40px;
     height: 100%;
     border-radius: 50%;
@@ -56,16 +56,16 @@ a:visited {
     line-height: 40px;
 }
 
-#header .left div:nth-child(1):hover {
+#left div:nth-child(1):hover {
     background: #444;
 }
 
-#header .left div:nth-child(1) i {
+#left div:nth-child(1) i {
     color: white;
     cursor: pointer;
 }
 
-#header .left div:nth-child(2) {
+#left div:nth-child(2) {
     width: 140px;
     height: 100%;
     display: inline-block;
@@ -73,7 +73,7 @@ a:visited {
     position: relative;
 }
 
-#header .left div:nth-child(2)::before {
+#left div:nth-child(2)::before {
     content: 'TW';
     font-size: 12px;
     color: #aaa;
@@ -82,17 +82,17 @@ a:visited {
     right: 8%;
 }
 
-#header .left div:nth-child(2) a {
+#left div:nth-child(2) a {
     text-decoration: none;
     cursor: pointer;
 }
 
-#header .left div:nth-child(2) i {
+#left div:nth-child(2) i {
     color: red;
     font-size: 24px;
 }
 
-#header .left div:nth-child(2) span {
+#left div:nth-child(2) span {
     display: inline-block;
     color: white;
     font-size: 20px;
@@ -100,14 +100,14 @@ a:visited {
     font-weight: bold;
 }
 
-#header .center {
+#center {
     width: calc(100% - 180px - 225px);
     height: 100%;
     /* background: yellow; */
     float: left;
 }
 
-#header #search {
+#search {
     width: 50%;
     height: 40px;
     margin-top: 8px;
@@ -115,7 +115,7 @@ a:visited {
     font-size: 0;
 }
 
-#header #search div:nth-child(1) {
+#search div:nth-child(1) {
     border-radius: 50px 0 0 50px;
     width: 70%;
     height: 100%;
@@ -126,7 +126,7 @@ a:visited {
     line-height: 40px; */
 }
 
-#header #search div:nth-child(1) input {
+#search div:nth-child(1) input {
     border: 1px solid #333;
     border-radius: 50px 0 0 50px;
     background: black;
@@ -137,7 +137,7 @@ a:visited {
     color: white;
 }
 
-#header #search div:nth-child(1) input:focus {
+#search div:nth-child(1) input:focus {
     border: 1px solid #999;
     outline: 1px solid blue;
     width: 108%;
@@ -145,7 +145,7 @@ a:visited {
     transform: translateX(-7.6%);
 }
 
-#header #search div:nth-child(2) {
+#search div:nth-child(2) {
     border: 1px solid #333;
     border-left: 0;
     width: 8%;
@@ -163,11 +163,11 @@ a:visited {
     line-height: 40px; */
 }
 
-#header #search div:nth-child(2) i {
+#search div:nth-child(2) i {
     color: white;
 }
 
-#header #search div:nth-child(3) {
+#search div:nth-child(3) {
     border-radius: 50%;
     width: 40px;
     height: 100%;
@@ -183,11 +183,11 @@ a:visited {
     line-height: 40px; */
 }
 
-#header #search div:nth-child(3) i {
+#search div:nth-child(3) i {
     color: white;
 }
 
-#header .right {
+#right {
     width: 225px;
     height: 40px;
     margin-top: 8px;
@@ -196,7 +196,7 @@ a:visited {
     font-size: 0;
 }
 
-#header .right div:nth-child(1) {
+#right div:nth-child(1) {
     border-radius: 60px;
     width: 40%;
     height: 100%;
@@ -208,17 +208,17 @@ a:visited {
     cursor: pointer;
 }
 
-#header .right div:nth-child(1) i {
+#right div:nth-child(1) i {
     font-size: 1.5rem;
     padding-right: 4px;
     vertical-align: middle;
 }
 
-#header .right div:nth-child(1) span {
+#right div:nth-child(1) span {
     vertical-align: middle;
 }
 
-#header .right div:nth-child(2) {
+#right div:nth-child(2) {
     width: 30%;
     height: 100%;
     display: inline-block;
@@ -228,11 +228,11 @@ a:visited {
     color: white;
 }
 
-#header .right div:nth-child(2) i {
+#right div:nth-child(2) i {
     cursor: pointer;
 }
 
-#header .right div:nth-child(3) {
+#right div:nth-child(3) {
     border-radius: 50%;
     width: 40px;
     height: 100%;
@@ -347,20 +347,20 @@ a:visited {
     height: 40px;
 }
 
-#sidebar #footer p {
+#footer p {
     height: 1rem;
 }
 
-#sidebar #footer span {
+#footer span {
     font-size: 12px;
     color: #aaa;
 }
 
-#sidebar #footer span:hover {
+#footer span:hover {
     cursor: pointer;
 }
 
-#sidebar #footer #text {
+#footer #text {
     font-size: 11px;
     color: #888;
 }
