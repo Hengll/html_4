@@ -1,2 +1,2 @@
 # html_YT
-YT切版練習
+YT切版
